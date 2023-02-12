@@ -1,0 +1,1 @@
+notes while learning pytorch
