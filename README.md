@@ -1,6 +1,6 @@
 ## all about DL
 
-> code ---> homework  
+> notes ---> homework  
 
 > model ---> model
 
