@@ -1,6 +1,6 @@
 # 记录炼丹时踩的坑
 
-## Models9
+## Models
 
 ### [StyleGAN](https://github.com/pphui8/StyleGAN.pytorch)
 #### trained datasets
@@ -36,3 +36,8 @@ root
 ### [Anime_face](https://paperswithcode.com/dataset/anime-face-dataset-by-character-name)
 > img with classes  
 > 96 x 96 (remember to resize it)
+
+## Cloud GPU
+1. connecting by vscode-remote
+2. reset the server system would course a issue: unable to connect, del the remembered IP table in /user/.ssh/xxx
+3. upload: jumpter
