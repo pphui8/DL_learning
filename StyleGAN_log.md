@@ -3,20 +3,20 @@
 ## Models
 
 ### [StyleGAN](https://github.com/pphui8/StyleGAN.pytorch)
-> #### version
-> - PyTorch  1.11.0
-> - Python  3.8(ubuntu20.04)
-> - Cuda  11.3
+ #### version
+ - PyTorch  1.11.0
+ - Python  3.8(ubuntu20.04)
+ - Cuda  11.3
 #### trained datasets
 1. CelebA - 2days  
 
 2. Anime_face(failed) - 5h  
 
 ### [StyleGAN2](https://github.com/pphui8/stylegan2-pytorch)
-> #### version
-> - PyTorch  1.11.0
-> - Python  3.8(ubuntu20.04)
-> - Cuda  11.3
+ #### version
+ - PyTorch  1.11.0
+ - Python  3.8(ubuntu20.04)
+ - Cuda  11.3
 #### trained datasets
 1. Anime_face  
 1.1 prepare data using ```./prepare_data.py```  
