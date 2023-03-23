@@ -36,8 +36,8 @@ root
 # prepare:
 python prepare_data.py --out ./pdata/ --size 256,512 ./dataset/
 
-# train:
-python train.py ./pdata/
+# train and output log to /train.log:
+python train.py ./pdata 2>&1 | tee /train.log
 
 # generate:
 # create a dictionary ` ./sample/ ` before run:
