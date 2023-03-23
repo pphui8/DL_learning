@@ -32,6 +32,10 @@ root
 |   |- img1
 ...
 
+2. CelebA
+2.1 autoDL`s extra disc mount point: ```/root/autodl_tmp/```
+2.2 resolution: 256
+
 ```bash
 # prepare:
 python prepare_data.py --out ./pdata/ --size 256,512 ./dataset/
