@@ -17,6 +17,7 @@
  - PyTorch  1.11.0
  - Python  3.8(ubuntu20.04)
  - Cuda  11.3
+ - max capability with 24G ARM: 512 resolution
 #### trained datasets
 1. Anime_face  
 1.1 prepare data using ```./prepare_data.py```  
@@ -38,10 +39,10 @@ root
 
 ```bash
 # prepare:
-python prepare_data.py --out ./pdata/ --size 256,512 ./dataset/
+python prepare_data.py --out ./pdata/ --size 512 ./dataset/
 
 # train and output log to /train.log:
-python train.py ./pdata 2>&1 | tee /train.log
+python train.py --size 512 ./pdata 2>&1 | tee /train.log
 
 # generate:
 # create a dictionary ` ./sample/ ` before run:
@@ -58,6 +59,9 @@ python generate.py --sample 1 --pics 1 --size 256 --ckpt ./checkpoint/170000.pt
 ### [Anime_face](https://paperswithcode.com/dataset/anime-face-dataset-by-character-name)
 > img with classes  
 > 96 x 96 (remember to resize it)
+
+### asian_face
+> 1024x1024
 
 ## Cloud GPU
 1. connecting by vscode-remote
